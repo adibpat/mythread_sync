@@ -1,0 +1,11 @@
+;; This buffer is for notes you don't want to save, and for Lisp evaluation.
+;; If you want to create a file, visit that file with C-x C-f,
+;; then enter the text in that file's own buffer.
+
+- A lock just protects threads from entering the critical section if one thread is already inside
+- pthread_mutex is just another lock
+- lock building requires hardware support and OS support
+- Requirements of a good lock:
+   - Mutual Exclusion
+   - Fairness
+   - Performance
